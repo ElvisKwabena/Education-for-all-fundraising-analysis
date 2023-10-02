@@ -35,7 +35,7 @@ The project is organized as follows:
 
 - `EFO_Donation_Data &EFO_Donor_Data`: Contains the datasets in sql format.
 - `png`: Dashboard file for data preprocessing, analysis, and visualization.
-- `sql.file`: SQL queries written to extract insights
+- `txt file`: SQL queries written to extract insights
 - `pdf`: General overview of project with recommendations and insights
 - `README.md`: This file providing an overview of the project.
 
