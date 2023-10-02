@@ -1,0 +1,41 @@
+SQL Queries Used
+1.SELECT
+    D.donation_frequency,
+    AVG(DT.donation) AS average_donation
+FROM
+    Donor_Data2 AS D
+JOIN
+    Donation_Data AS DT
+ON
+    D.id = DT.id
+WHERE
+    D.donation_frequency IN ('Once', 'Weekly', 'Monthly', 'Yearly')
+GROUP BY
+    D.donation_frequency;
+
+2.SELECT state,donation
+FROM Donation_Data
+
+3.SELECT gender,job_field,donation
+FROM Donation_Data
+GROUP BY gender,job_field;
+
+4.SELECT Donor_Data2.university,AVG(Donation_Data.donation) AS avg_donation
+FROM Donor_Data2
+FULL OUTER JOIN Donation_Data
+ON Donor_Data2.id=Donation_Data.id
+GROUP BY university
+ORDER by AVG(Donation_Data.donation) DESC
+LIMIT 10;
+
+5.SELECT
+    state,
+    AVG(donation) AS avg_donation
+FROM
+    Donation_Data
+GROUP BY
+    state
+ORDER BY
+    avg_donation DESC
+LIMIT 10;
+
