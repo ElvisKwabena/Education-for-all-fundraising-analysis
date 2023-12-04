@@ -1,7 +1,7 @@
 # Education-for-all-fundraising-analysis
 
 ## Overview
--I present a comprehensive case study that delves into data analytics, focusing on donor insights and donation rates for a charitable organization, Education for All. The primary objective was to analyze the available datasets—EFO_Donation_Data and EFO_Donor_Data—to gain insights that could inform the fundraising strategy of the organization and ultimately increase the number of donors, donation frequency, and donation value.
+I present a comprehensive case study that delves into data analytics, focusing on donor insights and donation rates for a charitable organization, Education for All. The primary objective was to analyze the available datasets—EFO_Donation_Data and EFO_Donor_Data—to gain insights that could inform the fundraising strategy of the organization and ultimately increase the number of donors, donation frequency, and donation value.
 
 ## Table of Contents
 - [Data Sources](#data-sources)
